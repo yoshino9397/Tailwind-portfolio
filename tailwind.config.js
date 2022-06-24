@@ -8,8 +8,12 @@ module.exports = {
         lg: "1024px",
         xl: "1280px",
       },
-      fontFamily:{
-        main:['Roboto Flex', 'sans-serif']
+      fontFamily: {
+        body: ["Roboto Flex", "sans-serif"],
+      },
+      colors: {
+        darkred: "#833E5B",
+        dark: "#181D3B",
       },
     },
   },
