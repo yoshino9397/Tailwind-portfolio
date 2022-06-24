@@ -12,8 +12,9 @@ module.exports = {
         body: ["Roboto Flex", "sans-serif"],
       },
       colors: {
-        darkred: "#833E5B",
-        dark: "#181D3B",
+        darkred: "#9E656D",
+        lightgreen: "#87928A",
+        darkbeige: "#C7BAB9",
       },
     },
   },

@@ -13,22 +13,74 @@
   </head>
   <body class="font-body h-screen">
     <!-- into section -->
-    <div class="h-1/2 lg:h-screen bg-gradient-to-t from-indigo-200 relative">
+    <div class="h-1/2 lg:h-screen bg-gradient-to-t from-red-50 relative">
       <!-- navbar -->
       <nav class="w-full fixed top-0 bg-darkred z-10">
         <div class="container mx-auto flex items-center justify-between">
           <div class="flex items-center gap-2">
             <img class="w-20" src="./img/logo.png" alt="" />
-            <span class="text-2xl font-bold text-indigo-900 dark:text-white"
-              >Portwind.</span
-            >
+            <span class="text-2xl font-bold text-stone-50">YOSHINO.</span>
           </div>
-          <div>hello</div>
-          <div>hello</div>
+          <ul
+            class="hidden md:flex space-x-10 text-gray-100 font-light uppercase"
+          >
+            <li class="hover:text-darkbeige">
+              <a href="#">homepage</a>
+            </li>
+            <li class="hover:text-darkbeige">
+              <a href="#about">about me</a>
+            </li>
+            <li class="hover:text-darkbeige">
+              <a href="#services">services</a>
+            </li>
+            <li class="hover:text-darkbeige">
+              <a href="#works">works</a>
+            </li>
+            <li class="hover:text-darkbeige">
+              <a href="#contact">contact</a>
+            </li>
+          </ul>
+          <svg
+            id="moon"
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6 hidden md:block cursor-pointer"
+            viewBox="0 0 20 20"
+            fill="#EDEAE6"
+          >
+            <path
+              d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"
+            />
+          </svg>
+          <div id="hamburger" class="space-y-1 md:hidden cursor-pointer z-20 ">
+            <div class="w-6 h-0.5 bg-black"></div>
+            <div class="w-6 h-0.5 bg-black"></div>
+            <div class="w-6 h-0.5 bg-black"></div>
+          </div>
+          <ul
+            id="menu"
+            class="hidden bg-lightgreen absolute left-0 top-0 w-full p-10 space-y-10 text-white text-center font-light uppercase"
+          >
+            <li>
+              <a id="hLink" href="#">homepage</a>
+            </li>
+            <li>
+              <a id="hLink" href="#about">about me</a>
+            </li>
+            <li>
+              <a id="hLink" href="#services">services</a>
+            </li>
+            <li>
+              <a id="hLink" href="#works">works</a>
+            </li>
+            <li>
+              <a id="hLink" href="#contact">contact</a>
+            </li>
+          </ul>
         </div>
       </nav>
       <!-- intro content -->
       <div></div>
     </div>
+    <script src="./app.js"></script>
   </body>
 </html>
