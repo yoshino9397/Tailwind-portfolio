@@ -14,7 +14,12 @@ module.exports = {
       colors: {
         darkred: "#9E656D",
         lightgreen: "#87928A",
+        darkgreen: "#2C3A2C",
         darkbeige: "#C7BAB9",
+        lightpink:"#b05a6e"
+      },
+      spacing: {
+        big: "48rem",
       },
     },
   },
