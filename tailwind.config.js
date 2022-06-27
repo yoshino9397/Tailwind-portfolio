@@ -16,7 +16,9 @@ module.exports = {
         lightgreen: "#87928A",
         darkgreen: "#2C3A2C",
         darkbeige: "#C7BAB9",
-        lightpink:"#b05a6e"
+        lightpink: "#b05a6e",
+        smokygreen: "#6a8075",
+        smokypink:"#BC9C9A"
       },
       spacing: {
         big: "48rem",
